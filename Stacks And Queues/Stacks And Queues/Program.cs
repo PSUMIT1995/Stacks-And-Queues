@@ -10,14 +10,13 @@ namespace Stacks_And_Queues
     {
         static void Main(string[] args)
         {
-            // Creating object
-            LinkedListStack my_Stack = new LinkedListStack();
-            my_Stack.Push(70);
-            my_Stack.Push(30);
-            my_Stack.Push(56);
-            my_Stack.Display();
-            my_Stack.IsEmpty();
-            my_Stack.Display();
+            /// Creating object
+           
+            LinkedListQueue queue = new LinkedListQueue();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            queue.Display();
         }
     }
 }

@@ -8,7 +8,6 @@ namespace Stacks_And_Queues
 {
     internal class Node
     {
-
         public int data;
         public Node next;
 

@@ -14,7 +14,6 @@ namespace Stacks_And_Queues
             this.top = null;
         }
 
-        
         /// Method to push element in the stack 
         public void Push(int value)
         {
@@ -31,8 +30,7 @@ namespace Stacks_And_Queues
             Console.WriteLine(value + " pushed to stack");
         }
 
-       
-        /// Method to display stack
+        /// Method to display stack 
         public void Display()
         {
             Node temp = this.top;
@@ -55,7 +53,7 @@ namespace Stacks_And_Queues
             Console.WriteLine("\n" + this.top.data + " is in the top of the stack");
         }
 
-       
+        
         /// Delete the topmost element
         public void Pop()
         {
@@ -70,7 +68,7 @@ namespace Stacks_And_Queues
 
        
         /// Check if the stack is empty
-         public void IsEmpty()
+        public void IsEmpty()
         {
             while (this.top != null)
             {
