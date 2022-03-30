@@ -45,6 +45,21 @@ namespace Stacks_And_Queues
                 temp = temp.next;
             }
         }
+
+        
+        /// Method to remove first element from the queue
+        public void Dequeue()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Queue is Empty!");
+            }
+            else
+            {
+                Console.WriteLine("\n" + head.data + " dequeued");
+                head = head.next;
+            }
+        }
     }
 }
 

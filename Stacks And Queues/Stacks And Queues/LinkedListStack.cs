@@ -8,6 +8,7 @@ namespace Stacks_And_Queues
 {
     internal class LinkedListStack
     {
+
         public Node top;
         public LinkedListStack()
         {
@@ -30,7 +31,8 @@ namespace Stacks_And_Queues
             Console.WriteLine(value + " pushed to stack");
         }
 
-        /// Method to display stack 
+       
+        /// Method to display stack
         public void Display()
         {
             Node temp = this.top;
